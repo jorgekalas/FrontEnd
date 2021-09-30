@@ -1,0 +1,99 @@
+
+/* Index */
+
+.contenedor_header {
+    background-image: url('/img/background_header.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+header div img {
+    height: 250px;
+    width: auto;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li {
+    text-align: center;
+    font-size: 25px;
+}
+
+h1 {
+    color: #005677;
+    background-color:  #C4C4C4;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0px;
+    height: 60px;
+    font-feature-settings:"cpsp";
+    font-size: 35px;
+}
+
+h3 {
+    color: #005677;
+    background-color:  #C4C4C4;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    height: 30px;
+}
+
+.estilo_span{
+font-style: italic;
+font-weight: bold;
+}
+
+.estilo_2_span {
+font-weight: bold;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+dt {
+    margin-left: 22px;
+}
+
+dd{
+    margin-left:116px;
+    margin-bottom:10px;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Lato', sans-serif;
+    background-color: #005677;
+    color:#FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    height:37px;
+}
+
+i{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Sobre mi */
+
+.div_volver{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.volver{
+    font-size: 20px;
+    background-color: #005677;
+    color: #FFF;
+}
+
+.sobre_mi{
+    text-align:center;
+}

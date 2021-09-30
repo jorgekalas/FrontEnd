@@ -1,0 +1,49 @@
+/* Header */
+.contenedor_header {
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+/* Body */
+body {
+    font-family: "Times New Roman";
+}
+
+/* Main */
+h1 {
+    color: #005677;
+    background-color:  #C4C4C4;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0px;
+}
+
+h3 {
+    color: #005677;
+    background-color:  #C4C4C4;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.estilo_span{
+font-style: italic;
+font-weight: bold;
+}
+
+.estilo_2_span {
+font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    font-family: "Times New Roman";
+    background-color: #005677;
+    color:#FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    height:37px;
+}
+
