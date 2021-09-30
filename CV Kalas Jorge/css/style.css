@@ -2,7 +2,7 @@
 /* Index */
 
 .contenedor_header {
-    background-image: url('/img/background_header.jpg');
+    background-image: url('./img/background_header.jpg');
     background-size: cover;
     text-align: center;
 }
