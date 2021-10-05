@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', arial, helvetica, sans-ser;
+}
+
+/* Header */
+.top {
+    background-color: #222222;
+    color: #fff;
+}
+
+.banner-header {
+    background-color: #F0A83E;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Main */
+
+.banner-main {
+    background-image: url('/img/banner.png');
+    height: 409px;
+    background-size:cover;
+}
+
+.es_un_placer {
+    background-color: #FFFFFF;
+    width: 365px;
+    height: 54px;
+    color: #3C2313;
+    font-size: 30px;
+}
+
+.comederos_en_descuento {
+    color: #3C2313;
+    font-size: 16px;
+}
+
+.comederos {
+    background-color:#F0A83E;
+    width: 141px;
+    height: 49px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.productos_destacados {
+    text-align: center;
+}
+
+.productos_destacados h2 {
+    color: #3C2313;
+    font-weight: 700;
+}
+

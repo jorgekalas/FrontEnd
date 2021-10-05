@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* Header */
+
+header p {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+h1 {
+    position: sticky;
+    top: 18px;
+    background-color: #00669F;
+    padding: 27px;
+}
+
+/* Main */
+
+
+section {
+    position: relative;
+    top: 130px;
+}
+
+article { 
+    width: 30vh;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+
+.div_article{
+    background-color: #F3F3F3;
+    padding: 10px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 5px;
+}
+
+h2, .descripcion {
+    position: relative;
+    bottom: 55px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+span {
+    background-color: #00669F;
+    color: #FFF;
+    font-size: 15px;
+    padding: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.batman1, .harley, .batman2{
+    position: relative;
+}
+
+.batman1{
+    left: 200px;
+}
+
+.harley{
+    left: 400px;
+}
+
+.batman2{
+    left: 600px;
+}
+
+.corazon {
+    position: relative;
+    top: 45px;
+    right: 115px;
+}
+
+.foto{
+    border-radius: 50%;
+    position: relative;
+    bottom: 75px;
+}
+
+/* Footer */
+
+footer {
+    color: #FFF;
+    background-color: #00669F;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
