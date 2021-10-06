@@ -10,6 +10,7 @@
 header {
     height: 600px;
     position: relative;
+    z-index: 100;
 }
 
 header p {
@@ -32,6 +33,7 @@ h1 {
 section {
     position: relative;
     bottom: 370px;
+    z-index: 10;
 }
 
 article { 
