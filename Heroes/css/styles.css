@@ -7,6 +7,11 @@
 
 /* Header */
 
+header {
+    height: 600px;
+    position: relative;
+}
+
 header p {
     background-color: #1CD1B0;
     font-size: 15px;
@@ -15,8 +20,8 @@ header p {
 }
 
 h1 {
-    position: sticky;
-    top: 18px;
+    position: sticky; /* Revisar */
+    top: 0px;
     background-color: #00669F;
     padding: 27px;
 }
@@ -26,7 +31,7 @@ h1 {
 
 section {
     position: relative;
-    top: 130px;
+    bottom: 370px;
 }
 
 article { 
