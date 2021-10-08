@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family:roboto,sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body{
+    background-color:#E5E5E5;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 14px;
+}
+
+header nav ul {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 49%;
+    height: 65vh;
+}
+
+.podio {
+    background-color: #fff;
+    position: relative;
+}
+
+p{
+    top: 20px;
+}
+
+.delivery h2 {
+    color: red;
+    font-weight: 700;
+    position: relative;
+    top: 35px;
+    left: 80px;
+    font-size: 50px;
+}
+
+.white_span {
+    color: #FFF;
+}
+
+.top5{
+    color: #222222;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 20%;
+    left: 15%;
+    font-size: 50px;
+}
+
+ol {
+    font-weight: bold;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    font-size: 30px;
+}
+
+.delivery{
+    display: flex;
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.podio h2 {
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    position: relative;
+    top: 10%;
+    font-size: 50px;
+}
+
+.imagen_pizza {
+    height: 250px;
+    position: relative;
+    left: 70%;
+    bottom: 25%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #222222;
+    position: absolute;
+    width: 100%;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px;
+    height: 150px;
+    bottom: 0px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 0px 5px;
+}

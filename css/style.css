@@ -1,5 +1,8 @@
-/* Background */
+* {
+    margin: 0;
+}
 
+/* Background */
 body {
     background-image: url('../img/background.jpg');
     background-attachment: fixed;
@@ -10,15 +13,73 @@ body {
 /* Text */
 
 h1 {
+    margin: 25px;
     font-family: 'Zen Loop', cursive;
     font-size: 60px;
     text-align: center;
     text-decoration: underline;
 }
 
-h2, a {
+a {
+    margin: 25px;
     font-family: 'Zen Loop', cursive;
     font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 800px;
+    flex-wrap: wrap;
+
+}
+
+
+article {
+    width: 250px;
+    height: 250px;
+    margin: 70px 70px 70px 70px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+i{
+    font-size: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Articles individuales */
+
+.lemon_pie {
+    background-color: #ffffba
+}
+
+.petshop {
+    background-color: #ffdfba
+}
+
+.cv_batman{
+    background-color: #bae1ff
+}
+
+.mi_cv{
+    background-color: 	#baffc9
+}
+
+.heroes {
+    background-color: #ffb3ba
+}
+
+.pizza {
+    background-color: 	#ffffba
 }
 
 /* Footer */
