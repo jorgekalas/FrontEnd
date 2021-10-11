@@ -2,39 +2,98 @@
 
 * {
     font-family: 'Roboto', arial, helvetica, sans-ser;
+    margin: 0px;
+    box-sizing: border-box
 }
 
 /* Header */
+
+/* Div superior */
 .top {
     background-color: #222222;
     color: #fff;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
+.grandes_ofertas{
+    position: relative;
+    left: 10%;
+}
+
+.español {
+    position: relative;
+    left: 75%;
+}
+
+.arg{
+    position: relative;
+    left: 76%;
+}
+
+/* Div Menú */
 .banner-header {
     background-color: #F0A83E;
     color: #FFF;
+    height: 62px;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-header ul{
+    display: flex;
+    width:500px;
+    justify-content: space-between;
+}
+
+.banner-header ul li a {
     text-decoration: none;
 }
 
 /* Main */
 
+/* Banner */
+
 .banner-main {
     background-image: url('/img/banner.png');
     height: 409px;
-    background-size:cover;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
+.banner-text{
+    display:flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-right: 100px;
+}
 .es_un_placer {
     background-color: #FFFFFF;
     width: 365px;
     height: 54px;
     color: #3C2313;
     font-size: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .comederos_en_descuento {
     color: #3C2313;
     font-size: 16px;
+    position: relative;
 }
 
 .comederos {
@@ -43,14 +102,205 @@
     height: 49px;
     color: #FFF;
     font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
-.productos_destacados {
+
+/* Productos destacados */
+
+section.titulo_productos_destacados {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.titulo_productos_destacados h2 {
+    color: #3C2313;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.titulo_productos_destacados ul {
+    display: flex;
+    justify-content:space-between;
+    width: 300px;
+    align-self: center;
+    padding: 0;
+}
+
+.div_productos_cards {
+    display: flex;
+    justify-content:center;
+}
+
+.div_productos_cards article {
+    margin: 10px 20px 40px;
+    background-color: #FBFAF6;
     text-align: center;
 }
 
-.productos_destacados h2 {
-    color: #3C2313;
-    font-weight: 700;
+p#nombre_producto {
+    color:#3C2313;
+    font-weight: bold;
 }
 
+p#precio_producto{
+    color: #F0A83E;
+}
+
+/* Formulario */
+
+.form_section{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    margin: 80px 20px 80px 20px;
+}
+
+form h3 {
+    color: #3C2313;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+form label {
+    color: #FFF;
+    background-color:#3C2313;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 340px;
+    font-size: 9px;
+    text-align: left;
+}
+
+label#label_telefono{
+    margin-bottom: 30px;
+}
+
+div.buttons{
+    display:flex;
+    justify-content: center;
+}
+
+button#resetear, button#enviar {
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 110px;
+    border-style: none;
+}
+
+button#resetear{
+    margin-right: 5px;
+    background-color:#8A8787;
+}
+
+button#enviar{
+    background-color: #F0A83E;
+}
+
+/* Suscríbete */
+
+section.suscribete{
+    display:flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    padding: 10px 50px;
+}
+
+.suscribete1 p {
+    color: #FFF;
+    font-size: 20px;
+}
+
+div.suscribete1{
+    display:flex;
+    width: 50vh;
+}
+
+.suscribete1 p{
+    align-self: center;
+    margin-left: 10px;
+}
+
+.ingresa_correo {
+    color:  #A0A0A0;
+    background-color:#FFF;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 271px;
+    font-size: 9px;
+    text-align: left;
+    border-style: none;
+}
+
+.suscribirme {
+    color: #FFF;
+    background-color:#3C2313;
+    padding: 14px;
+    border-radius: 15px;
+    width: 70px;
+    font-size: 9px;
+    text-align: left;
+    border-style: none;
+    
+}
+
+/* Seccion Datos */
+
+section.datos {
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px 0px 100px;
+}
+
+#tarjeta_datos {
+display: flex;
+margin: 20px;
+color: #FFF;
+}
+
+#texto_datos #datos_1{
+font-size: 20px;
+}
+
+#texto_datos #datos_2{
+color: #8A8787;
+font-size: 10px;
+}
+
+#texto_datos{
+    margin-left: 25px;
+    display: flex;
+    flex-direction:column;
+}
+
+#logo_footer{
+    position: relative;
+    bottom:190px;
+    left: 1100px;
+}
+
+/* Footer */
+
+footer {
+    background-color:  #222222;
+    text-align: center;
+    font-size: 10px;
+    color: #FFF;
+    padding: 5px;
+}

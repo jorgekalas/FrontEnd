@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Petshop</title>
 </head>
+
 <body>
     <header>
         <div class="top">
-            <span>Grandes ofertas en comederos</span>
-            <ul>Español</ul>
-            <ul>ARG$</ul>
+            <span class="grandes_ofertas">Grandes ofertas en comederos</span>
+            <span class="español">Español</span>
+            <span class="arg">ARG$</span>
         </div>
         <div class="banner-header">
             <img src="./img/logo.png" alt="logo">
@@ -24,15 +26,15 @@
                     <a href="#">Categorías</a>
                 </li>
                 <li>
-                    <i class="fas fa-paw"></i>    
+                    <i class="fas fa-paw"></i>
                     <a href="#">Pets</a>
                 </li>
                 <li>
-                    <i class="fas fa-paw"></i>    
+                    <i class="fas fa-paw"></i>
                     <a href="#">Nosotros</a>
                 </li>
                 <li>
-                    <i class="fas fa-paw"></i>    
+                    <i class="fas fa-paw"></i>
                     <a href="#">Contactanos</a>
                 </li>
             </ul>
@@ -40,74 +42,101 @@
     </header>
     <main>
         <section class="banner-main">
-            <img src="./img/banner.png" alt="banner">
-            <div class="es_un_placer">
-                <p>¡Es un placer tenerte aquí!</p>
-            </div>
-            <p class="comederos_en_descuento">¡Comederos en descuento!</p>
-            <div class="comederos">
-                <p>COMEDEROS</p>
+            <div class="banner-text">
+                <span class="es_un_placer">¡Es un placer tenerte aquí!</span>
+                <span class="comederos_en_descuento">¡Comederos en descuento!</span>
+                <span class="comederos">COMEDEROS</span>
             </div>
         </section>
-        <section class="productos_destacados">
-            <img src="./img/pata_productos_destacados.png" alt="">
-            <h2>Productos destacados</h2>
-            <ul>
-                <li type="none">Comederos</li>
-                <li type="none">Accesorios</li>
-                <li type="none">Comida</li>
-            </ul>
-            <article>
-                <img src="./img/churrasquito.png" alt="Churrasquito">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-            </article>
-            <article>
-                <img src="./img/comedero.png" alt="Comedero">
-                <p>Comedero para perro</p>
-                <p>$250</p>
-            </article>
-            <article>
-                <img src="./img/Huesito.png" alt="Huesito">
-                <p>Juguete Huesito</p>
-                <p>$650</p>
-            </article>
-            <section class="contactanos">
-                <h3>Contáctanos</h3>
-                <ul>
-                    <li type="none">Nombre y Apellido</li>
-                    <li type="none">Ingresá tu correo electrónico</li>
-                    <li type="none">Teléfono</li>
+        <section class="titulo_productos_destacados">
+                <div>
+                    <img src="./img/pata_productos_destacados.png" alt="">
+                </div>
+                <h2>Productos destacados</h2>
+                <ul type="none">
+                    <li >Comederos</li>
+                    <li>-</li>
+                    <li>Accesorios</li>
+                    <li>-</li>
+                    <li>Comida</li>
                 </ul>
-                <span>Resetear</span>
-                <span>Enviar</span>
         </section>
-        <section class="suscribite">
-            <span>Suscríbete para más novedades</span><span>Ingresá tu correo electrónico</span><span>Suscribirme</span>
-        </section class="datos">
-        <section>
-            <div>
-                <img src="./img/footer_localidad.png" alt="Localidad">  
-                <p>Localidad</p>
-                <p>Calle - provincia</p>
-            </div>
-            <div>
-                <img src="./img/footer_telefono.png" alt="Teléfono">
-                <p>Teléfono</p>
-                <p>Número de teléfono</p>
-            </div>
-            <div>
-                <img src="./img/footer_correo_electronico.png" alt="Coreo electrónico">
-                <p>Correo Electrónico</p>
-                <p>Dirección de correo</p>
-            </div>
-            <img src="./img/footer_logo.png" alt="Logo">
+        <section class="productos_cards">
+                    <div class="div_productos_cards">
+                    <article>
+                        <img src="./img/churrasquito.png" alt="Churrasquito">
+                        <p id="nombre_producto">Juguete Churrasquito</p>
+                        <p id="precio_producto">$150</p>
+                    </article>
+                    <article>
+                        <img src="./img/comedero.png" alt="Comedero">
+                        <p id="nombre_producto">Comedero para perro</p>
+                        <p id="precio_producto">$250</p>
+                    </article>
+                    <article>
+                        <img src="./img/Huesito.png" alt="Huesito">
+                        <p id="nombre_producto">Juguete Huesito</p>
+                        <p id="precio_producto">$650</p>
+                    </article>
+                    </div>
         </section>
-        <footer>
+        <section class="form_section">
+                <form>
+                    <h3>Contáctanos</h3>
+                    <label>Nombre y Apellido</label>
+                    <label>Ingresá tu correo electrónico</label>
+                    <label id="label_telefono">Teléfono</label>
+                    <div class="buttons">
+                        <button id="resetear">Resetear</button>
+                        <button id="enviar">Enviar</button>
+                    </div>
+                </form>
+        </section>
+
+        <section class="suscribete">
+                <div class="suscribete1">
+                    <img src="./img/enviar-correo.png" alt="sobre">
+                    <p>Suscríbete para más novedades</p>
+                </div>
+                <div class="suscribete2">
+                <button class="ingresa_correo">Ingresá tu correo electrónico</button>
+                <button class="suscribirme">Suscribirme</button>
+                </div>
+        </section>
+
+        <section class="datos">
+                <div id="tarjeta_datos">
+                    <img src="./img/footer_localidad.png" alt="Localidad">
+                    <div id="texto_datos">
+                        <p id="datos_1">Localidad</p>
+                        <p id="datos_2">Calle - provincia</p>
+                    </div>
+                </div>
+                <div id="tarjeta_datos">
+                    <img src="./img/footer_telefono.png" alt="Teléfono">
+                    <div id="texto_datos">
+                        <p>Teléfono</p>
+                        <p>Número de teléfono</p>
+                    </div>
+                </div>
+                <div id="tarjeta_datos">
+                    <img src="./img/footer_correo_electronico.png" alt="Coreo electrónico">
+                    <div id="texto_datos">
+                        <p>Correo Electrónico</p>
+                        <p>Dirección de correo</p>
+                    </div>
+                </div>
+                <div id="logo_footer">
+                    <img src="./img/footer_logo.png" alt="Logo">
+                </div>
+        </section>
     </main>
+
+    <footer>
     <div>
         <p>Todos los derechos reservados Front End</p>
     </div>
     </footer>
 </body>
+
 </html>
