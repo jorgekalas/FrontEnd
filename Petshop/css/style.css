@@ -55,6 +55,10 @@
     text-decoration: none;
 }
 
+.fa-bars {
+    visibility: hidden;
+}
+
 /* Main */
 
 
@@ -294,6 +298,8 @@ font-size: 10px;
     position: relative;
     bottom:190px;
     left: 1100px;
+   
+    width: 170px;
 }
 
 /* Footer */
@@ -305,3 +311,55 @@ footer {
     color: #FFF;
     padding: 5px;
 }
+
+/* Media Queries */
+
+@media (max-width: 800px){
+    .top{
+        display: none;
+    }
+
+    .fa-bars {
+        visibility: visible;
+        font-size: 25px;
+        position: relative;
+        right: 10%;
+    }
+
+    .banner-list {
+        visibility: hidden;
+    }
+
+    .div_productos_cards{
+        flex-direction: column;
+    }
+
+    div.buttons {
+        justify-content: space-between;
+    }
+
+    button#resetear, button#enviar{
+        width: 199px;
+        padding: 10px 15px
+    }
+
+    form label {
+    position: relative;
+    left: 10%;
+    }
+
+    .suscribete{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
+
+    #logo_footer {
+    position: relative;
+    top: 0px;
+    left: 60px;
+    order:-1;
+    }
+}
+
+    

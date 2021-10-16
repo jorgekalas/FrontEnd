@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    position: relative;
+}
+
+header p {
+    background-color: #D1891C;
+    font-size: 25px;
+    padding: 10px 10px 10px 25px;
+    width: 100%;
+}
+
+h1 {
+    color: #FFF;
+    position: sticky;
+    top: 0px;
+    background-color: #00669F;
+    padding: 27px;
+    font-weight: 100;
+}
+
+/* Main */
+
+
+section.cards {
+    margin: 30px;
+    bottom: 370px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article { 
+    width: 20vh;
+    text-align: center;
+    width: 300px;
+}
+
+.div_article{
+    background-color: #F3F3F3;
+    padding: 10px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+h2{
+    font-size: 30px;
+    padding: 5px;
+}
+
+h2, .descripcion {
+    position: relative;
+    bottom: 55px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+span {
+    background-color: #00669F;
+    color: #FFF;
+    font-size: 15px;
+    padding: 15px 40px;
+    position: relative;
+    bottom: 0px;
+}
+
+.ver_mas{
+    position: absolute;
+    bottom: 40px;
+}
+
+.foto{
+    width: 120px;
+    height: 118px;
+    position: relative;
+    bottom: 75px;
+    border-radius: 50%;
+
+}
+
+.background{
+    width: 300px;
+    height: 193px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.corazon {
+    position: relative;
+    top: 45px;
+    right: 115px;
+}
+
+/* Botón + */
+
+.divbotonfijado {
+    background-color: #00669F;
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    color: #FFF;
+    background-color: #00669F;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    font-size: 22px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer img {
+    width: 150px;
+    position: fixed;
+    right: 25px;
+    bottom: 8px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+
+    section.cards {
+        flex-direction: column;
+        align-items:center;
+    }
+
+    article.harley {
+        visibility: hidden;
+    }
+
+    footer, footer>img {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer>img {
+        margin-top: 8px;
+    }
+}
+
+
+@media (max-width:1279px) {
+
+    section.cards {
+        flex-wrap: wrap;
+    }
+
+    footer  {
+        position: static;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    footer>img {
+        position: static;
+        
+    }
+}
