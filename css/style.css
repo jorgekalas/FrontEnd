@@ -29,7 +29,14 @@ a {
     text-decoration: none;
 }
 
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .seccion_contenedora {
+    width: 80vw;
     display: flex;
     justify-content: space-between;
     align-items: space-between;
@@ -38,8 +45,8 @@ a {
 
 
 article {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 70px 70px 70px 70px;
     border-radius: 50%;
     display: flex;
@@ -82,6 +89,10 @@ i{
 
 .cards {
     background-color: #ffdfba
+}
+
+.heroesForms {
+    background-color: #bae1ff
 }
 
 /* Footer */

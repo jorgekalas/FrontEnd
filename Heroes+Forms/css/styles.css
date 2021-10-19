@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Header */
+
+
+header p {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+h1 {
+    color: #FFf;
+    font-size:30px;
+    background-color: #00669F;
+    padding: 27px;
+    font-weight: 100;
+    width: 100vw;
+}
+
+.nombretienda {
+    display: flex;
+}
+
+.nombretienda img {
+    background-color: #00669F;
+}
+
+.opcionesheader {
+    color: #FFF;
+    background-color: #001D2D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.opcionesheader span {
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+/* Main */
+
+section {
+    height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article { 
+    text-align: center;
+    width: 300px;
+}
+
+.div_article{
+    background-color: #F3F3F3;
+    padding: 10px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 5px;
+}
+
+h2, .descripcion {
+    position: relative;
+    bottom: 55px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+article span {
+    background-color: #00669F;
+    color: #FFF;
+    font-size: 15px;
+    padding: 15px 25px;
+    position: relative;
+    bottom: 10px;
+}
+
+.corazon {
+    position: relative;
+    top: 45px;
+    right: 115px;
+}
+
+.foto{
+    border-radius: 50%;
+    position: relative;
+    bottom: 75px;
+}
+
+/* Botón + */
+
+.divbotonfijado {
+    background-color: #00669F;
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer */
+
+footer {
+    color: #FFF;
+    background-color: #00669F;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Karla&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+
+header p {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+header h1 {
+    color: #FFf;
+    font-size:30px;
+    background-color: #00669F;
+    padding: 27px;
+    font-weight: 100;
+    width: 100vw;
+}
+
+.nombretienda {
+    display: flex;
+}
+
+.nombretienda img {
+    background-color: #00669F;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85.5vh;
+}
+
+main h1 {
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    margin-bottom: 40px;
+    position: relative;
+    right: 8.5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: Karla, sans-serif;
+    font-size: 20px;
+}
+
+form input  {
+    font-family: Karla, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    width: 620px;
+}
+
+form button {
+    font-family: Karla, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: Karla, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1CD1B0;
+    padding: 15px;
+    width: 620px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.textofinalform{
+    align-self: center;
+}
+
+/* Footer */
+
+footer {
+    color: #FFF;
+    background-color: #00669F;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+}

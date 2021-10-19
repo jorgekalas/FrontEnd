@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/* Header */
+
+
+header p {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+header h1 {
+    color: #FFf;
+    font-size:60px;
+    background-color: #00669F;
+    padding: 27px;
+    font-weight: 100;
+    width: 100vw;
+}
+
+/* Main */
+
+main {
+    height: 83vh;
+    background-image: url(../img/background_harley_full.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.harley{
+    height: 75vh;
+    width: 25vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h2 {
+    font-size: 35px;
+    font-weight: 100;
+    text-decoration: underline;
+    color: #2C0187;
+    position: relative;
+    bottom: 75px;
+}
+
+main p span {
+    color: #2C0187;
+}
+
+.texto{
+    background-color: #FFF;
+    border-radius: 12% 12% 0 0;
+    position: relative;
+    text-align:center;
+}
+
+.descripcion {
+    text-align: left;
+    margin: 0 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+.iconos {
+    position: relative;
+    bottom: 20px;
+}
+
+.iconos #bate, #gun{
+    margin-right: 25px;
+}
+
+img.foto {
+    border-radius: 50%;
+    position: relative;
+    bottom: 75px;
+}
+
+.corazon_pixel {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.volver {
+    color:#FFF;
+    background-color: #2C0187;
+    font-size: 20px;
+    width: 25vw;
+    padding: 30px;
+    text-align:center;
+    border-radius: 0 0 12% 12%;
+}
+
+
+/* Footer */
+
+footer {
+    color: #FFF;
+    background-color: #00669F;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+}
